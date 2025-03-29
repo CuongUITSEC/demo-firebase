@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng nhập với Firebase</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Đăng nhập</h2>
+      <!-- Ô nhập email -->
+      <input type="email" id="email" placeholder="Email" />
+      <!-- Ô nhập mật khẩu -->
+      <input type="password" id="password" placeholder="Mật khẩu" />
+      <!-- Nút đăng ký -->
+      <button id="signUpBtn" class="btn-primary">Đăng ký</button>
+      <!-- Nút đăng nhập bằng email và mật khẩu -->
+      <button id="signInBtn" class="btn-primary">Đăng nhập</button>
+      <!-- Nút đăng nhập bằng Google -->
+      <button id="signInGoogleBtn" class="btn-secondary">Đăng nhập bằng Google</button>
+      <!-- Nút đăng xuất, ban đầu bị ẩn -->
+      <button id="signOutBtn" class="btn-secondary" style="display: none">Đăng xuất</button>
+      <!-- Hiển thị thông báo -->
+      <p id="message"></p>
+    </div>
+    <script type="module" src="config.js">
+      
+    </script>
+  </body>
+</html>
